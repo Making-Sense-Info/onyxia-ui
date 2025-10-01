@@ -72,7 +72,7 @@ export const LazySvg = memo(
             return () => {
                 isActive = false;
             };
-        }, []);
+        }, [svgUrl]);
 
         if (state === undefined) {
             return (
